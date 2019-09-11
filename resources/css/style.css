@@ -6,7 +6,7 @@ header{
     
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
     margin:10px;
 }
 
@@ -16,7 +16,7 @@ nav{
     height: 50%;
 }
 
-a{
+a nav {
     text-decoration: none;
     color: black;
     padding: 8px;
@@ -91,6 +91,11 @@ a{
 
 .infotext{
    width: 65%;
+   padding: 2px;
+}
+
+.infosclass:hover{
+    background-color:  rgba(128, 128, 128, 0.25);
 }
 
 /* MOSAIQUE section*/
