@@ -123,3 +123,26 @@ a nav {
 .container img{
     width: 250px;
 }
+
+/*MEDIA section*/
+
+#media{
+    text-align: center;
+    padding: 32px;
+    display: flex;
+}
+
+#video {
+    width: 60%;
+    margin: 32px 24px 24px 24px;
+    text-align: left;
+}
+
+video{
+    width: 100%;
+    
+}
+
+#exhibit{
+    width: 40%,;
+}
