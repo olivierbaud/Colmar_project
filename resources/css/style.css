@@ -146,3 +146,10 @@ video{
 #exhibit{
     width: 40%,;
 }
+
+/*FOOTER section*/
+footer{
+    height: 50px;
+    padding: 16px 24px;
+    
+}
