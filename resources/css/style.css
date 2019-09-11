@@ -6,7 +6,7 @@ header{
     
 }
 
-h1, h3, button{
+h1, h2, h3 {
     margin:10px;
 }
 
@@ -26,7 +26,7 @@ a{
 
 #banner{
     display: flex;
-     
+    background-color: rgba(128, 128, 128, 0.25); 
 }
 
 #banner img{
@@ -91,5 +91,30 @@ a{
 
 .infotext{
    width: 65%;
-   
+}
+
+/* MOSAIQUE section*/
+
+#mosaique{
+    text-align: center;
+    width: 100%;
+    padding: 32px 0;
+    background-color: rgba(128, 128, 128, 0.25);
+}
+
+#supercont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.container{
+    margin: 16px;
+    height: 300px;
+    background-color: white;
+    width: 250px;
+}
+.container img{
+    width: 250px;
 }
