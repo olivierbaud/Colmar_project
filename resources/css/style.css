@@ -6,6 +6,10 @@ header{
     
 }
 
+h1, h3, button{
+    margin:10px;
+}
+
 nav{
     float: right;
     margin: auto;
@@ -15,8 +19,30 @@ nav{
 a{
     text-decoration: none;
     color: black;
+    padding: 8px;
+}
+
+#banner{
+    display: flex;
+     
 }
 
 #banner img{
-    
+    width: 60%;
+    margin: 32px 24px;
+}
+
+#learn{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+#learn a {
+    padding: 8px;
+    margin: 10px;
+    width: 200px;
+    background-color: rgb(66, 65, 65);
+    color: seashell;
+    text-align: center;
 }
