@@ -53,8 +53,6 @@ nav a {
         display: none;
     }
     #navicon{
-        
-        
         margin: auto 24px auto auto;
     }
 
@@ -91,6 +89,8 @@ nav a {
     background-color: rgb(62, 124, 187, 0.87);
     color: seashell;
     text-align: center;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 /*BANNER Mobile section*/
@@ -153,7 +153,7 @@ flex-wrap: wrap;
 
 .img-cont img{
     width: 100%;
-    
+    margin: auto;
 }
 
 .infotext{
@@ -167,6 +167,47 @@ flex-wrap: wrap;
 
 .infosclass:hover{
     background-color:  rgba(62, 124, 187, 0.87);
+}
+
+/* PRESENTATION Mobile section*/
+
+@media only screen and (max-width:768px){
+
+.img-cont{
+    display: none;
+}
+
+.img-cont, #infos, .img-cont-mob img {
+    width: 100%;
+    padding: 0;
+}
+
+#presentation{
+    margin: 16px;
+}
+
+.infosclass{
+    flex-wrap: wrap;
+}
+
+.infotext{
+    margin-left: 16px;
+    padding: 0;
+}
+
+#practice{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width:768px){
+
+.img-cont-mob{
+    display: none
+}
+
+
 }
 
 /* MOSAIQUE section*/
