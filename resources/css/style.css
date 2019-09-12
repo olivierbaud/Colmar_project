@@ -177,13 +177,13 @@ flex-wrap: wrap;
     display: none;
 }
 
-.img-cont, #infos, .img-cont-mob img {
+.img-cont, #infos, .img-cont-mob img, .img-cont-mob {
     width: 100%;
     padding: 0;
 }
 
 #presentation{
-    margin: 16px;
+    margin: 16px 16px 32px 16px;
 }
 
 .infosclass{
@@ -245,12 +245,46 @@ flex-wrap: wrap;
     background-color:  rgba(62, 124, 187, 0.87);
 }
 
+/*MOSAIQUE Mobile Section*/
+
+.container img, .container p{
+    display: none;
+}
+
+.container{
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.25);
+    width: 100%;
+    margin: 4px;
+}
+
+#supercont, #mosaique{
+    background-color: white;
+    
+}
+
+#mosaique{
+    border-top: 1px grey solid;
+}
+
+#mosaique h2{
+    margin: 0;
+}
+
+#mosaique h3{
+    margin: 16px 16px 24px 16px;
+}
+
 /*MEDIA section*/
 
 #media{
     text-align: center;
     padding: 32px;
     
+}
+
+#supercont{
+    margin-top: 12px;
 }
 
 #video {
