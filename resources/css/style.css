@@ -18,7 +18,6 @@ h2{
     color: rgba(56, 56, 56, 0.87);
 }
 
-
 /* HEADER section*/
 header{
     height: 64px;
@@ -46,6 +45,27 @@ nav a {
     font-weight: bold;
 }
 
+
+/* HEADER Mobile section*/
+
+@media only screen and (max-width:768px){
+    #colmaracademy, nav{
+        display: none;
+    }
+    #navicon{
+        
+        
+        margin: auto 24px auto auto;
+    }
+
+}
+@media only screen and (min-width:768px){
+    #navicon{
+        display: none;
+    }
+
+}
+
 /* BANNER section*/
 
 #banner{
@@ -68,9 +88,32 @@ nav a {
     padding: 8px;
     margin: 10px;
     width: 200px;
-    background-color: rgb(66, 65, 65);
+    background-color: rgb(62, 124, 187, 0.87);
     color: seashell;
     text-align: center;
+}
+
+/*BANNER Mobile section*/
+
+@media only screen and (max-width:768px){
+
+#banner{
+flex-wrap: wrap;
+}
+
+#banner img{
+    width: 100%;
+    margin: 0 0 16px 0;
+}
+
+#learn, #learn h1, #learn h3{
+    margin: 16px;
+}
+
+#learn a{
+    margin: 8px auto 16px auto;
+}
+
 }
 
 /*PRESENTATION section*/
