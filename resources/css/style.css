@@ -18,6 +18,15 @@ h2{
     color: rgba(56, 56, 56, 0.87);
 }
 
+/* general Mobile version*/
+
+@media only screen and (max-width:768px){
+
+body{
+    margin: 0;
+}
+}
+
 /* HEADER section*/
 header{
     height: 64px;
@@ -247,6 +256,8 @@ flex-wrap: wrap;
 
 /*MOSAIQUE Mobile Section*/
 
+@media only screen and (max-width:768px){
+
 .container img, .container p{
     display: none;
 }
@@ -264,7 +275,8 @@ flex-wrap: wrap;
 }
 
 #mosaique{
-    border-top: 1px grey solid;
+    border-top: 1px rgba(128, 128, 128, 0.4) solid;
+    border-bottom: 1px rgba(128, 128, 128, 0.4) solid;
 }
 
 #mosaique h2{
@@ -273,6 +285,7 @@ flex-wrap: wrap;
 
 #mosaique h3{
     margin: 16px 16px 24px 16px;
+}
 }
 
 /*MEDIA section*/
@@ -307,6 +320,32 @@ video{
     display: flex;
 }
 
+
+/* MEDIA Mobile Section*/
+
+@media only screen and (max-width:768px){
+
+#video h3, #video p, #exhibit{
+    display: none;
+}
+
+#media, #contmedia, #video, #media h2{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#media{
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+#contmedia{
+    margin-top: 16px;
+}
+
+}
+
 /*FOOTER section*/
 footer{
     height: 50px;
@@ -322,3 +361,20 @@ footer p{
     margin:  auto auto auto 24px;
 }
 
+/*FOOTER Mobile Section*/
+
+@media only screen and (max-width:768px){
+
+#footlink{
+    display: none;
+}
+
+footer p{
+    font-size: 85%;
+    margin: 16px;
+}
+
+footer{
+    padding: 0;
+}
+}
