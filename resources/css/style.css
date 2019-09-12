@@ -1,25 +1,49 @@
-
-/* HEADER section*/
-header{
-    height: 64px;
-    background-color: slategray;
-    
-}
+/* General section*/
 
 h1, h2, h3, p {
     margin:10px;
 }
 
-nav{
-    float: right;
-    margin: auto;
-    height: 50%;
+h3{
+    font-size: 20px;
 }
 
-a nav {
+h2{
+    font-size: 28px;
+}
+
+
+*{
+    font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
+    color: rgba(56, 56, 56, 0.87);
+}
+
+
+/* HEADER section*/
+header{
+    height: 64px;
+    background-color: rgba(62, 124, 187, 0.87);
+    display: flex;
+}
+
+header img{
+    margin-left: 24px;
+}
+nav{    
+    margin: auto 24px auto auto;    
+}
+
+nav a {
     text-decoration: none;
     color: black;
     padding: 8px;
+    font-size: 18px;
+}
+
+#colmaracademy{
+    margin: auto auto auto 5px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 /* BANNER section*/
@@ -90,8 +114,12 @@ a nav {
 }
 
 .infotext{
-   width: 65%;
-   padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    padding: 2px;
+
 }
 
 .infosclass:hover{
